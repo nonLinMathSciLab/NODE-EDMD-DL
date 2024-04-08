@@ -9,7 +9,7 @@ An implementation of [Extended dynamic mode decomposition with dictionary learni
 
 ## Notes
 
-No revisions or refinements have been applied to the code since its creation up to 2021.
+- This project has been made available in response to specific requests. While we hope the methodology it implements will be widely used and contribute significantly to the field, please note that the code itself was not published with the intention of widespread use. As such, there are currently no plans to undertake refactoring or significant updates to this codebase.
 
 ## License
 
