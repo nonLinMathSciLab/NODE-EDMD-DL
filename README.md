@@ -4,7 +4,7 @@ An implementation of [Extended dynamic mode decomposition with dictionary learni
 
 ## Usage
 - Please prepare time series data of your concerning dynamical system as CSV files. The script used to output the data for the system discussed in our paper is located in the data directory.
-- `NODE-EDMD-DL.py` implements our proposed method. For the first round of training, you need to comment out the lines 74-79 in `NODE-EDMD-DL.py`. These lines are responsible for loading `.pkl` files, which contain information about the input layer, hidden layers, and output layer when the loss is minimized. Since these files are generated during the training, they will not be available at the beginning of your first training session. It is easy to automate the process of checking for the existence of these `.pkl` files but we haven't. I apologize for any inconvenience our laziness may cause.
+- `NODE-EDMD-DL.py` implements our proposed method. For the first round of training, you need to comment out the lines 74-79 in `NODE-EDMD-DL.py`. These lines are responsible for loading `.pkl` files, which contain information about the input layer, hidden layers, and output layer when the loss is minimized. Since these files are generated during the training, they will not be available at the beginning of your first training session. It is easy to automate the process of checking for the existence of these `.pkl` files but we haven't. We apologize for any inconvenience our laziness may cause.
 
 
 ## Notes
